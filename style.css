@@ -10,17 +10,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Kalam', cursive;  background: #8db600;
+  font-family: 'Kalam';  background: #008543;
   color: #000000;
 }
 
 a {
-  color: #cda45e;
+  color: #008543;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #008543;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Kalam', cursive;
+  font-family: 'Kalam';
 }
 
 /*--------------------------------------------------------------
@@ -53,8 +53,8 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #8db600;
+  border-bottom-color: #8db600;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -125,7 +125,7 @@ h6 {
   font-size: 14px;
   transition: all 0.5s;
   z-index: 996;
-  background-color: #8db600;
+  background-color: #008543;
 }
 
 #topbar.topbar-scrolled {
@@ -192,7 +192,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 #header .logo a {
   color: #fff;
@@ -207,7 +207,7 @@ h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid #8db600;
   color: #000000;
   border-radius: 50px;
   padding: 8px 25px;
@@ -219,7 +219,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: #8db600;
   color: #fff;
 }
 
@@ -310,7 +310,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #cda45e;
+  color: #8db600;
 }
 
 .navbar .dropdown:hover>ul {
@@ -406,7 +406,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #cda45e;
+  color: #8db600;
 }
 
 .navbar-mobile .getstarted,
@@ -441,7 +441,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #cda45e;
+  color: #8db600;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -486,7 +486,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 #hero h1 span {
   color: #8db600;
@@ -530,7 +530,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: #8db600;
+  background: #008543;
   border-radius: 50%;
   display: block;
   position: relative;
@@ -571,7 +571,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #cda45e;
+  border-left: 15px solid #8db600;
   transform: scale(20);
 }
 
@@ -662,7 +662,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgb(214, 214, 214);;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 .section-title h2::after {
   content: "";
@@ -676,9 +676,9 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 66px;
   font-weight: 700;
-  font-family: 'Kalam', cursive;  color: #000000;
+  font-family: 'Kalam', ;  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -777,8 +777,6 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #8db600;
-  border-top: 5px solid#8db600;
   transition: 0.5s;
 }
 
@@ -790,8 +788,6 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #8db600;
-  border-bottom: 5px solid #8db600;
   transition: 0.5s;
 }
 
@@ -811,7 +807,7 @@ section {
 
 .about .content h3 {
   
-  font-size: 35px;
+  font-size: 60px;
   color:#141413 ;
 }
 .about .content h2 {
@@ -922,19 +918,19 @@ section {
 
 .menu .content h3 {
   
-  font-size: 26px;
+  font-size: 60px;
   color:#000000 ;
 }
 .menu .content h2 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 70px;
   color:#0a0a0a ;
   padding-bottom: 10px;
 }
 .menu .content p {
   list-style: none;
   padding: 0;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 .menu .content ul li {
@@ -974,7 +970,7 @@ section {
 
 
 .cavite .content h2 {
-  font-size: 40px;
+  font-size: 80px;
   color:#000000  ;
   padding-bottom: 10px;
   
@@ -995,18 +991,18 @@ section {
 .cavite .content p {
   list-style: none;
   padding: 0;
-  font-size: 30px;
+  font-size: 50px;
   justify-content: center;
 }
 
 .cavite.content ul li {
   padding-bottom: 50px;
   text-align: right;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .cavite .content ul i {
-  font-size: 30px;
+  font-size: 50px;
   padding-right: 5px;
   color: #000000;
 }
@@ -1057,7 +1053,7 @@ section {
 
 
 .laguna .content h2 {
-  font-size: 40px;
+  font-size: 80px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1077,17 +1073,17 @@ section {
 .laguna .content p {
   list-style: none;
   padding: 0;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .laguna.content ul li {
   padding-bottom: 50px;
   text-align: right;
-  font-size: 30px;
+  font-size: 500px;
 }
 
 .laguna .content ul i {
-  font-size: 30px;
+  font-size: 50px;
   padding-right: 5px;
   color: #000000;
 }
@@ -1111,6 +1107,7 @@ section {
   border-bottom: 3px solid #454035;
   aspect-ratio: 4/4;
   object-fit: cover;
+  font-size: 60px;
 }
 
 .gallery .gallery-item img {
@@ -1136,19 +1133,19 @@ section {
 
 
 .batangas .content h2 {
-  font-size: 40px;
+  font-size: 70px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h4 {
-  font-size: 26px;
+  font-size: 66px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h5 {
-  font-size: 26px;
+  font-size: 66px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1156,7 +1153,7 @@ section {
 .batangas .content p {
   list-style: none;
   padding: 0;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .batangas.content ul li {
@@ -1166,7 +1163,7 @@ section {
 }
 
 .batangas .content ul i {
-  font-size: 30px;
+  font-size: 60px;
   padding-right: 5px;
   color: #000000;
 }
@@ -1215,19 +1212,19 @@ section {
 
 
 .rizal .content h2 {
-  font-size: 40px;
+  font-size: 80px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .rizal .content h4 {
-  font-size: 26px;
+  font-size: 66px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .rizal .content h5 {
-  font-size: 26px;
+  font-size: 66px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1235,7 +1232,7 @@ section {
 .rizal .content p {
   list-style: none;
   padding: 0;
-  font-size: 25px;
+  font-size: 65px;
 }
 
 .rizalcontent ul li {
@@ -1244,7 +1241,7 @@ section {
 }
 
 .rizal .content ul i {
-  font-size: 30px;
+  font-size: 60px;
   padding-right: 4px;
   color: #000000;
 }
@@ -1294,20 +1291,20 @@ section {
 
 
 .quezon .content h2 {
-  font-size: 50px;
+  font-size: 80px;
   color:#000000  ;
   padding-bottom: 10px;
 
 }
 
 .quezon .content h4 {
-  font-size: 26px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .quezon .content h5 {
-  font-size: 26px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1315,7 +1312,7 @@ section {
 .quezon .content p {
   list-style: none;
   padding: 0;
-  font-size: 30px;
+  font-size: 65px;
 }
 
 .quezon.content ul li {
@@ -1324,7 +1321,7 @@ section {
 }
 
 .quezon .content ul i {
-  font-size: 30px;
+  font-size: 65px;
   padding-right: 4px;
   color: #000000;
 }
@@ -1376,23 +1373,23 @@ section {
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #cda45e;
+  border-right: 2px solid #8db600;
   font-weight: 600;
   font-size: 15px;
 }
 
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: #8db600;
 }
 
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
+  background: #8db600;
+  border-color: #8db600;
 }
 
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: #8db600;
 }
 
 .specials .tab-pane.active {
@@ -1468,7 +1465,7 @@ section {
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: #8db600;
-  font-size: 26px;
+  font-size: 80px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1492,6 +1489,7 @@ section {
   position: relative;
   border-radius: 6px;
   position: relative;
+  font-size: 30px;
   z-index: 1;
 }
 
@@ -1652,14 +1650,14 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'Kalam', cursive;  color: #000000;
+  font-family: 'Kalam';  color: #000000;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Kalam', cursive;  color: #8db600;
+  font-family: 'Kalam';  color: #8db600;
 }
 
 #footer .footer-top .social-links a {
