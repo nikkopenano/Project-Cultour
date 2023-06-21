@@ -10,8 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #d6d6d6;
+  font-family: 'Kalam', cursive;  background: #8db600;
   color: #000000;
 }
 
@@ -31,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Kalam', cursive;
 }
 
 /*--------------------------------------------------------------
@@ -193,8 +192,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: 'Kalam', cursive;}
 
 #header .logo a {
   color: #fff;
@@ -488,8 +486,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: 'Kalam', cursive;}
 
 #hero h1 span {
   color: #8db600;
@@ -650,9 +647,7 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #3a3939;
-}
+
 
 .section-title {
   padding-bottom: 40px;
@@ -667,15 +662,14 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgb(214, 214, 214);;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: 'Kalam', cursive;}
 
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 1px;
+  height: 3px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: black;
   margin: 4px 10px;
 }
 
@@ -684,8 +678,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
-  color: #8db600;
+  font-family: 'Kalam', cursive;  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -770,7 +763,7 @@ section {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  
   position: relative;
   border-radius: 10px;
 
@@ -818,18 +811,18 @@ section {
 
 .about .content h3 {
   
-  font-size: 26px;
+  font-size: 30px;
   color:#141413 ;
 }
 .about .content h2 {
   font-weight: 600;
-  font-size: 26px;
-  color:#8db600 ;
+  font-size: 35px;
+  color:#000000 ;
 }
 .about .content p {
   list-style: none;
   padding: 0;
-  font-size: large;
+  font-size: 20px;
 }
 
 .about .content ul li {
@@ -877,13 +870,15 @@ section {
   position: relative;
   transition: 0.5s;
   border-radius: 10px;
+  border: 10px solid rgba(0, 0, 0, 0.5);
 }
 
 .menu .menu-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 10px solid rgba(0, 0, 0, 0.5)s;
   position: relative;
   border-radius: 10px;
+  height: auto;
 
 }
 
@@ -895,8 +890,7 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #8db600;
-  border-top: 5px solid#8db600;
+
   transition: 0.5s;
 }
 
@@ -908,8 +902,7 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #8db600;
-  border-bottom: 5px solid #8db600;
+
   transition: 0.5s;
 }
 
@@ -934,14 +927,14 @@ section {
 }
 .menu .content h2 {
   font-weight: 600;
-  font-size: 26px;
-  color:#8db600 ;
+  font-size: 28px;
+  color:#0a0a0a ;
   padding-bottom: 10px;
 }
 .menu .content p {
   list-style: none;
   padding: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .menu .content ul li {
@@ -981,37 +974,40 @@ section {
 
 
 .cavite .content h2 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 40px;
+  color:#000000  ;
   padding-bottom: 10px;
+  
 }
 
 .cavite .content h4 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .cavite .content h5 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .cavite .content p {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 30px;
+  justify-content: center;
 }
 
 .cavite.content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   text-align: right;
+  font-size: 30px;
 }
 
 .cavite .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
+  font-size: 30px;
+  padding-right: 5px;
   color: #000000;
 }
 
@@ -1027,6 +1023,27 @@ section {
 
 
 /*--------------------------------------------------------------
+# Gallery cavite
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
 # laguna
 --------------------------------------------------------------*/
 
@@ -1040,37 +1057,38 @@ section {
 
 
 .laguna .content h2 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 40px;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .laguna .content h4 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 28px;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .laguna .content h5 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 28px;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
-.laguna.content p {
+.laguna .content p {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .laguna.content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   text-align: right;
+  font-size: 30px;
 }
 
-.laguna.content ul i {
-  font-size: 20px;
-  padding-right: 4px;
+.laguna .content ul i {
+  font-size: 30px;
+  padding-right: 5px;
   color: #000000;
 }
 
@@ -1082,6 +1100,26 @@ section {
   .laguna {
     background-attachment: fixed;
   }
+}
+
+/*--------------------------------------------------------------
+# Gallery laguna
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
@@ -1098,41 +1136,42 @@ section {
 
 
 .batangas .content h2 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 40px;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h4 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h5 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
-.batangas.content p {
+.batangas .content p {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .batangas.content ul li {
   padding-bottom: 10px;
-  text-align: right;
+  text-align: left;
+  font-size: 50;
 }
 
-.batangas.content ul i {
-  font-size: 20px;
-  padding-right: 4px;
+.batangas .content ul i {
+  font-size: 30px;
+  padding-right: 5px;
   color: #000000;
 }
 
-.batangas.content p:last-child {
+.batangas .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1140,6 +1179,26 @@ section {
   .batangas {
     background-attachment: fixed;
   }
+}
+
+/*--------------------------------------------------------------
+# Gallery batangas
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
@@ -1156,27 +1215,27 @@ section {
 
 
 .rizal .content h2 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 40px;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .rizal .content h4 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .rizal .content h5 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
-.rizal.content p {
+.rizal .content p {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .rizalcontent ul li {
@@ -1184,8 +1243,8 @@ section {
   text-align: right;
 }
 
-.rizal.content ul i {
-  font-size: 20px;
+.rizal .content ul i {
+  font-size: 30px;
   padding-right: 4px;
   color: #000000;
 }
@@ -1201,6 +1260,27 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Gallery rizal
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------------
 # quezon
 --------------------------------------------------------------*/
 
@@ -1214,27 +1294,28 @@ section {
 
 
 .quezon .content h2 {
-  font-size: 26px;
-  color:#8db600  ;
+  font-size: 50px;
+  color:#000000  ;
   padding-bottom: 10px;
+
 }
 
 .quezon .content h4 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
 .quezon .content h5 {
   font-size: 26px;
-  color:#8db600  ;
+  color:#000000  ;
   padding-bottom: 10px;
 }
 
-.quezon.content p {
+.quezon .content p {
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .quezon.content ul li {
@@ -1242,8 +1323,8 @@ section {
   text-align: right;
 }
 
-.quezon.content ul i {
-  font-size: 20px;
+.quezon .content ul i {
+  font-size: 30px;
   padding-right: 4px;
   color: #000000;
 }
@@ -1258,6 +1339,25 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Gallery quezon
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+  aspect-ratio: 4/4;
+  object-fit: cover;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
 
 /*--------------------------------------------------------------
 # Specials
@@ -1321,99 +1421,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Events
---------------------------------------------------------------*/
-.events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.events::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.events .section-title h2 {
-  color: #fff;
-}
-
-.events .container {
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  .events {
-    background-attachment: fixed;
-  }
-}
-
-.events .events-carousel {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 30px;
-}
-
-.events .event-item {
-  color: #fff;
-}
-
-.events .event-item h3 {
-  font-weight: 600;
-  font-size: 26px;
-  color: #cda45e;
-}
-
-.events .event-item .price {
-  font-size: 26px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.events .event-item .price span {
-  border-bottom: 2px solid #cda45e;
-}
-
-.events .event-item ul {
-  list-style: none;
-  padding: 0;
-}
-
-.events .event-item ul li {
-  padding-bottom: 10px;
-}
-
-.events .event-item ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #cda45e;
-}
-
-.events .event-item p:last-child {
-  margin-bottom: 0;
-}
-
-.events .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 1;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
-}
 
 
 /*--------------------------------------------------------------
@@ -1424,6 +1431,11 @@ section {
   overflow: hidden;
 }
 
+.testimonials{
+  border-color: #000000;
+  border-top: 1px solid #37332a;
+  border-bottom: 1px solid #28251f;
+}
 .testimonials .testimonial-item {
   box-sizing: border-box;
   min-height: 320px;
@@ -1496,7 +1508,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8db600;
+  background-color: #0f0f0c;
 }
 
 /*--------------------------------------------------------------
@@ -1640,16 +1652,14 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #8db600;
+  font-family: 'Kalam', cursive;  color: #000000;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Playfair Display", serif;
-  color: #8db600;
+  font-family: 'Kalam', cursive;  color: #8db600;
 }
 
 #footer .footer-top .social-links a {
