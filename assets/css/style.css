@@ -970,7 +970,7 @@ section {
 
 
 .cavite .content h2 {
-  font-size: 80px;
+  font-size: 50px;
   color:#000000  ;
   padding-bottom: 10px;
   
@@ -991,7 +991,7 @@ section {
 .cavite .content p {
   list-style: none;
   padding: 0;
-  font-size: 50px;
+  font-size: 40px;
   justify-content: center;
 }
 
@@ -1053,7 +1053,7 @@ section {
 
 
 .laguna .content h2 {
-  font-size: 80px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1073,17 +1073,17 @@ section {
 .laguna .content p {
   list-style: none;
   padding: 0;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .laguna.content ul li {
   padding-bottom: 50px;
   text-align: right;
-  font-size: 500px;
+  font-size: 50px;
 }
 
 .laguna .content ul i {
-  font-size: 50px;
+  font-size: 40px;
   padding-right: 5px;
   color: #000000;
 }
@@ -1133,7 +1133,7 @@ section {
 
 
 .batangas .content h2 {
-  font-size: 70px;
+  font-size: 80px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1153,7 +1153,7 @@ section {
 .batangas .content p {
   list-style: none;
   padding: 0;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .batangas.content ul li {
@@ -1232,7 +1232,7 @@ section {
 .rizal .content p {
   list-style: none;
   padding: 0;
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .rizalcontent ul li {
@@ -1291,20 +1291,20 @@ section {
 
 
 .quezon .content h2 {
-  font-size: 80px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 
 }
 
 .quezon .content h4 {
-  font-size: 60px;
+  font-size: 50px;
   color:#000000  ;
   padding-bottom: 10px;
 }
 
 .quezon .content h5 {
-  font-size: 60px;
+  font-size: 50px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1312,7 +1312,7 @@ section {
 .quezon .content p {
   list-style: none;
   padding: 0;
-  font-size: 65px;
+  font-size: 40px;
 }
 
 .quezon.content ul li {
