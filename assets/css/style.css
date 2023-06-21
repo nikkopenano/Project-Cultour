@@ -10,17 +10,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Kalam', cursive;  background: #8db600;
+  font-family: 'Kalam';  background: #008543;
   color: #000000;
 }
 
 a {
-  color: #cda45e;
+  color: #008543;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d9ba85;
+  color: #008543;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Kalam', cursive;
+  font-family: 'Kalam';
 }
 
 /*--------------------------------------------------------------
@@ -125,7 +125,7 @@ h6 {
   font-size: 14px;
   transition: all 0.5s;
   z-index: 996;
-  background-color: #8db600;
+  background-color: #008543;
 }
 
 #topbar.topbar-scrolled {
@@ -192,7 +192,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 #header .logo a {
   color: #fff;
@@ -486,7 +486,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 #hero h1 span {
   color: #8db600;
@@ -530,7 +530,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: #8db600;
+  background: #008543;
   border-radius: 50%;
   display: block;
   position: relative;
@@ -662,7 +662,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgb(214, 214, 214);;
-  font-family: 'Kalam', cursive;}
+  font-family: 'Kalam';}
 
 .section-title h2::after {
   content: "";
@@ -678,7 +678,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Kalam', cursive;  color: #000000;
+  font-family: 'Kalam', ;  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -811,18 +811,18 @@ section {
 
 .about .content h3 {
   
-  font-size: 30px;
+  font-size: 35px;
   color:#141413 ;
 }
 .about .content h2 {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 45px;
   color:#000000 ;
 }
 .about .content p {
   list-style: none;
   padding: 0;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .about .content ul li {
@@ -934,7 +934,7 @@ section {
 .menu .content p {
   list-style: none;
   padding: 0;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 .menu .content ul li {
@@ -974,7 +974,7 @@ section {
 
 
 .cavite .content h2 {
-  font-size: 40px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
   
@@ -1002,11 +1002,11 @@ section {
 .cavite.content ul li {
   padding-bottom: 50px;
   text-align: right;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .cavite .content ul i {
-  font-size: 30px;
+  font-size: 50px;
   padding-right: 5px;
   color: #000000;
 }
@@ -1315,7 +1315,7 @@ section {
 .quezon .content p {
   list-style: none;
   padding: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .quezon.content ul li {
@@ -1652,14 +1652,14 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'Kalam', cursive;  color: #000000;
+  font-family: 'Kalam';  color: #000000;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Kalam', cursive;  color: #8db600;
+  font-family: 'Kalam';  color: #8db600;
 }
 
 #footer .footer-top .social-links a {
