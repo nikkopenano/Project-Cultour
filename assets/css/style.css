@@ -923,7 +923,7 @@ section {
 }
 .menu .content h2 {
   font-weight: 600;
-  font-size: 70px;
+  font-size: 60px;
   color:#0a0a0a ;
   padding-bottom: 10px;
 }
@@ -941,6 +941,7 @@ section {
   font-size: 20px;
   padding-right: 4px;
   color: #000000;
+  font-style: normal;
 }
 
 .menu .content p:last-child {
@@ -970,7 +971,7 @@ section {
 
 
 .cavite .content h2 {
-  font-size: 50px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
   
@@ -996,15 +997,16 @@ section {
 }
 
 .cavite.content ul li {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: right;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .cavite .content ul i {
-  font-size: 50px;
+  font-size: 40px;
   padding-right: 5px;
   color: #000000;
+  font-style: normal;
 }
 
 .cavite.content p:last-child {
@@ -1077,7 +1079,7 @@ section {
 }
 
 .laguna.content ul li {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: right;
   font-size: 50px;
 }
@@ -1086,6 +1088,8 @@ section {
   font-size: 40px;
   padding-right: 5px;
   color: #000000;
+  font-style: normal;
+
 }
 
 .laguna.content p:last-child {
@@ -1133,7 +1137,7 @@ section {
 
 
 .batangas .content h2 {
-  font-size: 80px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1153,7 +1157,7 @@ section {
 .batangas .content p {
   list-style: none;
   padding: 0;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .batangas.content ul li {
@@ -1166,6 +1170,8 @@ section {
   font-size: 60px;
   padding-right: 5px;
   color: #000000;
+  font-style: normal;
+
 }
 
 .batangas .content p:last-child {
@@ -1212,7 +1218,7 @@ section {
 
 
 .rizal .content h2 {
-  font-size: 80px;
+  font-size: 60px;
   color:#000000  ;
   padding-bottom: 10px;
 }
@@ -1232,7 +1238,7 @@ section {
 .rizal .content p {
   list-style: none;
   padding: 0;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .rizalcontent ul li {
@@ -1244,6 +1250,8 @@ section {
   font-size: 60px;
   padding-right: 4px;
   color: #000000;
+  font-style: normal;
+
 }
 
 .rizal.content p:last-child {
@@ -1324,6 +1332,8 @@ section {
   font-size: 65px;
   padding-right: 4px;
   color: #000000;
+  font-style: normal;
+
 }
 
 .quezon.content p:last-child {
