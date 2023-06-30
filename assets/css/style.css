@@ -1,26 +1,19 @@
-/**
-* Template Name: Restaurantly
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Kalam';  background: #008543;
+  font-family: 'Kalam';  background: #014421;
   color: #000000;
 }
 
 a {
-  color: #008543;
+  color:#014421;
   text-decoration: none;
 }
 
 a:hover {
-  color: #008543;
+  color: #014421;
   text-decoration: none;
 }
 
@@ -53,8 +46,8 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #8db600;
-  border-bottom-color: #8db600;
+  border-top-color: #014421;
+  border-bottom-color: #014421;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -125,7 +118,7 @@ h6 {
   font-size: 14px;
   transition: all 0.5s;
   z-index: 996;
-  background-color: #008543;
+  background-color: #014421;
 }
 
 #topbar.topbar-scrolled {
@@ -406,7 +399,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #8db600;
+  color:#014421;
 }
 
 .navbar-mobile .getstarted,
@@ -441,12 +434,14 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #8db600;
+  color: #014421;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -487,11 +482,15 @@ h6 {
   line-height: 56px;
   color: #fff;
   font-family: 'Kalam';}
+  -webkit-
 
 #hero h1 span {
-  color: #8db600;
+  color: #014421;
 }
 
+.hero span {
+  color:#008543
+}
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
@@ -669,16 +668,16 @@ section {
   width: 120px;
   height: 3px;
   display: inline-block;
-  background: black;
+  background: rgb(255, 255, 255);
   margin: 4px 10px;
 }
 
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 66px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: 'Kalam', ;  color: #000000;
+  font-family: 'Kalam', ;  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -743,7 +742,8 @@ section {
   padding-top: 5px;
   position: relative;
   padding: 50px 0;
-  border-radius: 10px;
+  background-color: #8a9a5b;
+
 }
 
 .about:before {
@@ -759,6 +759,7 @@ section {
   position: relative;
   transition: 0.5s;
   border-radius: 10px;
+  
 }
 
 .about .about-img img {
@@ -847,10 +848,10 @@ section {
 
 .menu {
   border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
   position: relative;
   padding: 80px 0;
   border-radius: 10px;
+  
 }
 
 .menu:before {
@@ -866,16 +867,18 @@ section {
   position: relative;
   transition: 0.5s;
   border-radius: 10px;
-  border: 10px solid rgba(0, 0, 0, 0.5);
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  justify-content: center;
+  height: max-content;
 }
 
 .menu .menu-img img {
   max-width: 100%;
-  border: 10px solid rgba(0, 0, 0, 0.5)s;
+  border: 10px solid rgba(255, 255, 255, 0.5)s;
   position: relative;
   border-radius: 10px;
   height: auto;
-
+  padding: 25px;
 }
 
 .menu .menu-img::before {
@@ -917,30 +920,33 @@ section {
 }
 
 .menu .content h3 {
-  
-  font-size: 60px;
-  color:#000000 ;
+
+  font-size: 35px;
+  color:#ffffff ;
 }
 .menu .content h2 {
   font-weight: 600;
   font-size: 60px;
-  color:#0a0a0a ;
+  color:#ffffff ;
   padding-bottom: 10px;
 }
 .menu .content p {
   list-style: none;
   padding: 0;
-  font-size: 40px;
+  font-size: 25px;
+  color: white;
 }
 
 .menu .content ul li {
   padding-bottom: 10px;
+  font-size: 18px;
+  color: white;
 }
 
-.menu .content ul i {
-  font-size: 20px;
+.menu .content .links {
+  
   padding-right: 4px;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
 }
 
@@ -965,47 +971,82 @@ section {
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   position: relative;
-  padding: 80px 0;
   border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-left: 90px;
 }
 
 
+.cavite  img {
+  padding: 25px;
+  display: flex;
+  justify-content: right;
+  
+  padding: 10px;
+  
+}
+
+.cavite img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+}
+
+.cavite .links img {
+  
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
+  transition: all ease-in-out 0.4s;
+}
+
+.cavite .title h2 {
+ display: inline;
+ justify-content: center;
+ margin-left: 400px;
+ 
+}
+
 .cavite .content h2 {
-  font-size: 60px;
-  color:#000000  ;
+  font-size: 35px;
+  color:#ffffff  ;
   padding-bottom: 10px;
   
 }
 
 .cavite .content h4 {
   font-size: 26px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .cavite .content h5 {
   font-size: 26px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .cavite .content p {
   list-style: none;
   padding: 0;
-  font-size: 40px;
+  font-size: 35px;
   justify-content: center;
+  color: white;
 }
 
-.cavite.content ul li {
-  padding-bottom: 40px;
-  text-align: right;
-  font-size: 40px;
+.cavite .content ul li {
+  padding-bottom: 40px; 
+  color: white;
+  font-size: 30px;
 }
 
 .cavite .content ul i {
-  font-size: 40px;
+  font-size: 30px;
   padding-right: 5px;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
 }
 
@@ -1020,26 +1061,6 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Gallery cavite
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-  aspect-ratio: 4/4;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # laguna
@@ -1051,43 +1072,68 @@ section {
   position: relative;
   padding: 80px 0;
   border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-left: 90px;
+}
+
+.laguna img {
+  padding: 25px;
+  display: flex;
+  justify-content: right;
+}
+
+.laguna img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+}
+
+.laguna .links img {
+  transition: all ease-in-out 0.4s;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
 }
 
 
 .laguna .content h2 {
-  font-size: 60px;
-  color:#000000  ;
+  font-size: 35px;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .laguna .content h4 {
   font-size: 28px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .laguna .content h5 {
   font-size: 28px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .laguna .content p {
   list-style: none;
   padding: 0;
-  font-size: 45px;
+  font-size: 30px;
+  color: white;
 }
 
-.laguna.content ul li {
+.laguna .content ul li {
   padding-bottom: 40px;
-  text-align: right;
-  font-size: 50px;
+  font-size: 30px;
+  color: white;
 }
 
 .laguna .content ul i {
   font-size: 40px;
   padding-right: 5px;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
 
 }
@@ -1102,26 +1148,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery laguna
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-  font-size: 60px;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-  aspect-ratio: 4/4;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # batangas
@@ -1133,43 +1159,79 @@ section {
   position: relative;
   padding: 80px 0;
   border-radius: 10px;
+  padding: 50px;
 }
 
+.batangas img {
+  padding-bottom: 25px;
+}
+
+.laguna img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+}
+
+.laguna .links img {
+  transition: all ease-in-out 0.4s;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
+}
+
+.batangas img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+
+}
+
+.batangas .links img {
+  transition: all ease-in-out 0.4s;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
+}
 
 .batangas .content h2 {
-  font-size: 60px;
-  color:#000000  ;
+  font-size: 35px;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h4 {
   font-size: 66px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .batangas .content h5 {
   font-size: 66px;
-  color:#000000  ;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
 .batangas .content p {
   list-style: none;
   padding: 0;
-  font-size: 40px;
+  font-size: 30px;
+  color: white;
 }
 
-.batangas.content ul li {
+.batangas .content ul li {
   padding-bottom: 10px;
-  text-align: left;
-  font-size: 50;
+  color: white;
+  font-size: 30px;
 }
 
 .batangas .content ul i {
-  font-size: 60px;
+  font-size: 35px;
   padding-right: 5px;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
 
 }
@@ -1184,25 +1246,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery batangas
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-  aspect-ratio: 4/4;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # rizal
@@ -1214,12 +1257,31 @@ section {
   position: relative;
   padding: 80px 0;
   border-radius: 10px;
+  padding: 50px;
 }
 
+.rizal img {
+  padding-bottom: 25px;
+}
+
+.rizal img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+}
+
+.rizal .links img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
+  transition: all ease-in-out 0.4s;
+}
 
 .rizal .content h2 {
-  font-size: 60px;
-  color:#000000  ;
+  font-size: 35px;
+  color:#ffffff  ;
   padding-bottom: 10px;
 }
 
@@ -1238,18 +1300,20 @@ section {
 .rizal .content p {
   list-style: none;
   padding: 0;
-  font-size: 40px;
+  font-size: 30px;
+  color: white;
 }
 
-.rizalcontent ul li {
+.rizal .content ul li {
   padding-bottom: 10px;
-  text-align: right;
+  color: white;
+  font-size: 30px;
 }
 
 .rizal .content ul i {
-  font-size: 60px;
+  font-size: 30px;
   padding-right: 4px;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
 
 }
@@ -1264,26 +1328,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery rizal
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-  aspect-ratio: 4/4;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
-
 
 /*--------------------------------------------------------------
 # quezon
@@ -1291,16 +1335,35 @@ section {
 
 .quezon {
   border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
   position: relative;
   padding: 80px 0;
   border-radius: 10px;
+  padding: 50px;
 }
 
+.quezon img {
+  padding-bottom: 25px;
+}
+
+.quezon img:hover {
+  box-shadow: 0 0 2px 1px rgba(209, 215, 218, 0.829);
+  transform: scale(1.1);
+
+}
+
+.quezon .links img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+  aspect-ratio: 4/4;
+  transition: all ease-in-out 0.4s;
+}
 
 .quezon .content h2 {
-  font-size: 60px;
-  color:#000000  ;
+  font-size: 35px;
+  color:#ffffff  ;
   padding-bottom: 10px;
 
 }
@@ -1320,16 +1383,19 @@ section {
 .quezon .content p {
   list-style: none;
   padding: 0;
-  font-size: 40px;
+  font-size: 30px;
+  color: white;
 }
 
-.quezon.content ul li {
+.quezon .content ul li {
   padding-bottom: 10px;
-  text-align: right;
+  
+  color: white;
+  font-size: 30px;
 }
 
 .quezon .content ul i {
-  font-size: 65px;
+  font-size: 30px;
   padding-right: 4px;
   color: #000000;
   font-style: normal;
@@ -1346,25 +1412,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery quezon
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-  aspect-ratio: 4/4;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # Specials
@@ -1442,6 +1489,7 @@ section {
   border-color: #000000;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
+  background-color: #014421;
 }
 .testimonials .testimonial-item {
   box-sizing: border-box;
@@ -1456,7 +1504,7 @@ section {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgba(194, 188, 188, 0.2);
+
 }
 
 .testimonials .testimonial-item h3 {
@@ -1467,15 +1515,15 @@ section {
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+  color: white;
   margin: 0 0 0 45px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: #8db600;
-  font-size: 80px;
+  font-size: 20px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1495,12 +1543,13 @@ section {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #c9c5c0;
+  background: #8a9a5b;
   position: relative;
   border-radius: 6px;
   position: relative;
-  font-size: 30px;
+  font-size: 25px;
   z-index: 1;
+
 }
 
 .testimonials .swiper-pagination {
@@ -1522,14 +1571,15 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-}
+
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
+  aspect-ratio: 4/4;
+  display: flex;
+  padding: 25px;
+  border-radius: 50px;
+
 }
 
 .gallery .gallery-item:hover img {
@@ -1540,8 +1590,7 @@ section {
 # profile
 --------------------------------------------------------------*/
 .profile{
-  border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
+background-image: linear-gradient(#014421, #8a9a5b);
 }
 
 .profile .member {
@@ -1636,7 +1685,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:#d6d6d6;
+  background:#014421;
   padding: 0 0 30px 0;
   color: #020202;
   font-size: 14px;
@@ -1644,8 +1693,7 @@ section {
 
 
 #footer .footer-top {
-  background: #d6d6d6;
-  border-top: 1px solid #37332a;
+  background-image: linear-gradient(#8a9a5b,#014421 );
   padding: 90px 0 30px 0;
 }
 
@@ -1674,7 +1722,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #584c4c;
-  color: #8db600;
+  color: white;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1686,7 +1734,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #8db600;
+  background: #21774a88;
   color: #181717;
   text-decoration: none;
 }
